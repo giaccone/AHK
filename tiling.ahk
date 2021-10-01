@@ -56,20 +56,14 @@ WinRestore
 WinMove, A, , 0.5 * A_ScreenWidth, 0.5 * A_ScreenHeight, 0.5 * A_ScreenWidth, 0.5 * A_ScreenHeight
 return
 
-; move windows to the lower-right corner of the screen
-^!3::
-WinRestore
-WinMove, A, , 0.65 * A_ScreenWidth, 0, 0.35 * A_ScreenWidth, A_ScreenHeight
-return
-
-; move windows to the right (35% of the screenwidth)
+; move windows to the right (30% of the screenwidth)
 ^!p::
 WinRestore
-WinMove, A, , 0.65 * A_ScreenWidth, 0, 0.35 * A_ScreenWidth, A_ScreenHeight
+WinMove, A, , 0.7 * A_ScreenWidth, 0, 0.3 * A_ScreenWidth, A_ScreenHeight
 return
 
-; move windows to the left (65% of the screenwidth)
+; move windows to the left (70 of the screenwidth)
 ^!u::
 WinRestore
-WinMove, A, , 0, 0, 0.65 * A_ScreenWidth, A_ScreenHeight
+WinMove, A, , 0, 0, 0.7 * A_ScreenWidth, A_ScreenHeight
 return

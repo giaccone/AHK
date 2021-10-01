@@ -1,5 +1,5 @@
-## Some AutoHotKey script (at the moment only one)
-To use this script you have to install [AutoHotKey](https://www.autohotkey.com/). Afterward, you only need to double click on the `.ahk` and you are ready to go.
+## Some AutoHotKey scripts (at the moment only one)
+To use these scripts you have to install [AutoHotKey](https://www.autohotkey.com/). Afterward, you only need to double click on the `.ahk` file and you are ready to go.
 
 
 ## `tiling.ahk`

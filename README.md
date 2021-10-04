@@ -21,9 +21,4 @@ The aim of this script is to mimic some features of a tiling windows manager. Wi
 | `CTRL + ALT + u`         | <img src="./img/CAU.png" alt="CTRL + ALT + u" width="300">           |
 
 ## Known issues
-* some Windows/programs (e.g. VSCode) do not respond to the shortcut if they are maximized. They only solution, at the moment, is to unmaximize the Windows before using the short cut. You can unmaximize the windows with the native Windows shortcut `WIN + Down`.
-
-
-
-
-
+* some Windows/programs (e.g. VSCode) do not respond to the shortcut if they are maximized. The only solution, at the moment, is to unmaximize the Windows before using the shortcut. You can unmaximize the windows with the native Windows shortcut `WIN + Down`.
